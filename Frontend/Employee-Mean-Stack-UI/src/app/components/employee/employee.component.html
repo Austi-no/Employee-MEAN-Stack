@@ -68,7 +68,7 @@
           <td>{{list.name}}</td>
           <td>{{list.position}}</td>
           <td>{{list.office}}</td>
-          <td>{{list.salary}}</td>
+          <td>&#8358;{{list.salary | number}}</td>
           <td>
             <i class="icofont-edit mr-2" style="color:blue;"></i>
             <i class="icofont-trash mr-2" style="color:red;" (click)="deleteEmployee(list?._id)"></i>
