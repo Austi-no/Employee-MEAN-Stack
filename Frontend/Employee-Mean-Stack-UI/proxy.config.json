@@ -1,0 +1,12 @@
+{
+
+    "/": {
+        "target": "http:localhost:9000",
+        "pathRewrite": {
+            "^/": ""
+        },
+        "secure": false,
+        "changeOrigin": true,
+        "logLevel": "info"
+    }
+}
